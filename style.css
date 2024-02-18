@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 110px;
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header-part1{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 25px;
+    padding: 20px;
+    
+}
+
+.header-part2{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(0, 0, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 25px;
+    padding: 20px;
+}
+
+.content{
+    height: 50%;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 40px;
+    /* background-color: aqua; */
+}
+
+.content h3{
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 50px;
+    
+}
+
+.content1{
+  
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content1 i{
+    margin: 10px;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 60px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 600px;
+    /* background-color: rgb(139, 161, 159); */
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4c/9c/d8/4c9cd8c3-e655-2245-cc26-ff7953d47d0a/AppIcon-0-1x_U007emarketing-0-7-0-P3-85-220.png/434x0w.webp);
+}
+
+#img2{
+   background-image: url(https://www.flatpanelshd.com/pictures/loeweapp-3.jpg);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;;
+}
+
+.bottom i{
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
